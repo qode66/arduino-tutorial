@@ -1,0 +1,15 @@
+== arduino-sensors
+
+Us donem la benvinguda a aquesta guia d’aprenentatge sobre com utilitzar els sensors Arduino! Els sensors d’arduino són petits components
+electrònics que poden detectar canvis en l’entorn i proporcionar entrada a una placa de microcontrolador d’Arduino. Aquests sensors es poden
+utilitzar per mesurar coses com la temperatura, la humitat, la llum i el moviment, i es poden integrar en una àmplia gamma de projectes, des de
+sistemes d’automatització domèstica fins a projectes de robòtica.
+
+En aquesta guia d’aprenentatge, cobrirem els fonaments de l’ús dels sensors Arduino, incloent-hi com triar el sensor correcte per al vostre
+projecte, com connectar el sensor amb el vostre tauler Arduino, i com escriure codi per llegir dades del sensor. També proporcionarem
+instruccions pas a pas per a alguns projectes d’exemple que demostren com utilitzar els sensors de diferents maneres.
+
+Ja sigui un principiant que comenci amb Arduino, o un fabricant més experimentat que miri d’expandir les vostres habilitats, aquesta guia
+d’aprenentatge us donarà els coneixements i les eines que necessiteu per començar a utilitzar sensors Arduino en els vostres projectes. Comencem!
+
+link:./index.adoc[Contingut del curs]

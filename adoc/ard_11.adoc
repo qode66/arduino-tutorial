@@ -11,13 +11,13 @@
 === Material
 
 [%autowidth]
-[.center, cols=".^"]
+[.center, cols=".^,<.^"]
 |===
-|image:./../imatges/mat_unor3.png["Arduino UNO",50,50] Arduino Uno o equivalente.
-|image:./../imatges/mat_protoboard.png["Protoboard",50.50] Una protoboard
-|image:./../imatges/mat_cables.png["Cables",50,50] Cables de connexió
-|image:./../imatges/mat_potenciometre.png["Potenciòmetre",50,50] Un potenciòmetre
-|image:./../imatges/mat_LCD16x02.png["Pantalla LCD",50,50]Una pantalla LCD 16x02
+|image:./../imatges/mat_unor3.png["Arduino UNO",50,50] |Arduino Uno o equivalente.
+|image:./../imatges/mat_protoboard.png["Protoboard",50.50] |Una protoboard
+|image:./../imatges/mat_cables.png["Cables",50,50] |Cables de connexió
+|image:./../imatges/mat_potenciometre.png["Potenciòmetre",50,50] |Un potenciòmetre
+|image:./../imatges/mat_LCD16x02.png["Pantalla LCD",50,50] |Una pantalla LCD 16x02
 |===
 
 === Descripció del material
@@ -28,6 +28,7 @@ la fulla de característiques (en anglés)
 link:../datasheet/LCD1602A.pdf[aquí].
 
 [.text-center]
+.Pantalla LCD
 image::./../imatges/ard_11_01 Display LCD.png["Pantalla LCD",480]
 
 Les pantalles LCD (Liquid Cristall Display) són una de les formes més
@@ -55,9 +56,11 @@ en la propera entrada.
 [.float-group]
 --
 [.left]
+.Diagrama de muntatge pantalla LCD
 image::./../imatges/ard_11_02%20Conexió%20pantalla%2016x02_bb.png[esquema-muntatge,320]
 
 [.left]
+.Esquema elèctric pantalla LCD
 image::./../imatges/ard_11_03%20Conexió%20pantalla%2016x02_esquemático.png[esquema-electric,320]
 --
 
@@ -140,6 +143,7 @@ grandària, i emplenant el quadradet pertinent.
 Així per exemple per al símbol del grau seria:
 
 [.text-center]
+.Símbol graus
 image::./../imatges/ard_11_04%20Grado.png[figura-grau]
 
 Abans del setup(), en les declaracions i definicions es on creem els

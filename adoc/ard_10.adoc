@@ -12,12 +12,12 @@
 === Material
 
 [%autowidth]
-[.center, cols=".^"]
+[.center, cols=".^,<.^"]
 |===
-|image:./../imatges/mat_unor3.png["Arduino UNO",50,50] Arduino Uno o compatible.
-|image:./../imatges/mat_protoboard.png["Protoboard",50,50] Una protoboard
-|image:./../imatges/mat_cables.png["Cables",50,50] Cables de connexió
-|image:./../imatges/mat_KY-015.png["Mòdul KY015",50,50] Un mòdul KY-015 o sensor DHT11
+|image:./../imatges/mat_unor3.png["Arduino UNO",50,50] |Arduino Uno o compatible.
+|image:./../imatges/mat_protoboard.png["Protoboard",50,50] |Una protoboard
+|image:./../imatges/mat_cables.png["Cables",50,50] |Cables de connexió
+|image:./../imatges/mat_KY-015.png["Mòdul KY015",50,50] |Un mòdul KY-015 o sensor DHT11
 |===
 
 === Descripció
@@ -98,6 +98,7 @@ menor pot ocasionar que les dades no siguen precises.
 ==== DHT11 sense pcb
 
 [.text-center]
+.Sensor DHT11
 image::./../imatges/ard_10_01.png["sensor-dht11",240]
 
 Per a connectar el circuit d’una aplicació típica amb un DHT11,
@@ -115,9 +116,11 @@ L’esquema elèctric i de muntatge del DHT11 seria el següent:
 [.float-group]
 --
 [.left]
+.Diagrama de muntatge
 image::./../imatges/ard_10_02.png[esquema-muntatge,320]
 
 [.left]
+.Esquema elèctric
 image::./../imatges/ard_10_03.png[esquema-electric,320]
 --
 
@@ -136,9 +139,11 @@ En la següent imatge pots veure l’esquema de connexió amb Arduino.
 [.float-group]
 --
 [.left]
+.Diagrama de muntatge KY015
 image::./../imatges/ard_10_04.png[esquema-muntatge-ky015,320]
 
 [.left]
+.Esquema elèctric KY015
 image::./../imatges/ard_10_05.png[esquema-electric-ky015,320]
 --
 

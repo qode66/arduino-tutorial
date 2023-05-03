@@ -10,13 +10,13 @@ Presentar el sensor de cop i de vibració (KY-002 i KY-031), a més de continuar
 === Material
 
 [%autowidth]
-[.center, cols=".^"]
+[.center, cols=".^,<.^"]
 |===
-|image:mat_unor3.png["Arduino UNO",50,50] Arduino Uno.
-|image:mat_protoboard.png["Protoboard",50,50] Una protoboard
-|image:mat_cables.png["Cables",50,50] Cables de connexió
-|image:mat_KY-002.png["Mòdul KY002",50,50] Un mòdul KY-002, sensor de cop
-|image:mat_KY-031.png["Mòdul KY031",50,50] Un mòdul KY-031, detector de vibració
+|image:mat_unor3.png["Arduino UNO",50,50] |Arduino Uno.
+|image:mat_protoboard.png["Protoboard",50,50] |Una protoboard
+|image:mat_cables.png["Cables",50,50] |Cables de connexió
+|image:mat_KY-002.png["Mòdul KY002",50,50] |Un mòdul KY-002, sensor de cop
+|image:mat_KY-031.png["Mòdul KY031",50,50] |Un mòdul KY-031, detector de vibració
 |===
 
 === ¿Cóm funcionen els mòduls?
@@ -50,9 +50,11 @@ connectat al pin 13 per veure la eixida.
 [.float-group]
 --
 [.left]
+.Esquema elèctric
 image:ard_09_01.png[Esquema-electronic]
 
 [.right]
+.Diagrama de muntatge
 image:ard_09_02.png[esquema-muntatge]
 --
 

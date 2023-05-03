@@ -1,17 +1,21 @@
 == 12 - El mòdul de polsador
 
+:imagesdir: ../imatges
+:iconsdir: ../imatges/icons
+
 === Finalitat
 
 * Com utilitzar els polsadors
 
 === Material
 
-[cols="^1,<3"]
+[%autowidth]
+[.center, cols=".^,<.^"]
 |===
-| image:./../material/mat_unor3.png[image,width=56,height=56] | Una placa Arduino UNO o equivalent
-| image:./../material/mat_protoboard.png[image,width=56,height=56] |Una placa protoboard
-| image:./../material/mat_cables.png[image,width=56,height=56] | Uns quants cables
-| image:./../material/mat_KY-004.png[image,width=56,height=32] | Un mòdul polsador (KY-004)
+| image:mat_unor3.png[image,width=56,height=56] | Una placa Arduino UNO o equivalent
+| image:mat_protoboard.png[image,width=56,height=56] |Una placa protoboard
+| image:mat_cables.png[image,width=56,height=56] | Uns quants cables
+| image:mat_KY-004.png[image,width=56,height=32] | Un mòdul polsador (KY-004)
 |===
 
 === Descripció del material
@@ -23,7 +27,8 @@ Els commutadors són components realment simples. Quan premeu un botó o gireu u
 Els petits interruptors tàctils que s’utilitzen en aquesta lliçó tenen quatre connexions, que poden ser una mica confós.
 
 [.text-center]
-image::../imatges/ard_12/ard_12_01_polsador.png["Polsador i esquema elèctric"]
+.Polsador i esquema elèctric
+image::ard_12_01_polsador.png["Polsador i esquema elèctric"]
 
 En realitat, només hi ha realment dues connexions elèctriques, ja que a l'interior del paquet d'interruptors els pins B i C estan connectats junts, igual que A i D.
 
@@ -33,100 +38,66 @@ Una resistència de 10 K ohm incorporada està connectada entre el pin central i
 
 
 [.text-center]
-.text
-image::../imatges/ard_12/ard_12_02_mòdul_polsador.png["Módul polsador KY-004,width=318,height=290,]
+.Mòdul polsador KY004
+image::ard_12_02_mòdul_polsador.png["Módul polsador KY-004",width=318,height=290,]
 
 === Muntatge
 
 Anem a fer que el led integrat en la placa arduino i connectat al pin 13 parpellege quan polsem el botó. Per aconseguir-ho cal cablejar la «output» del mòdul al pin 3 de arduino, la Vcc amb 5V i Gnd amb Gnd. Com veieu el muntatge és molt senzill.
 
-[.text-center]
-image::[Figura 3:
-Esquema
-electrònic,title="fig:",width=261,height=258]image:Pictures/10000001000006DB000003697B217C0F9DD3AD26.png[Figura
-4: Esquema de muntatge,title="fig:",width=282,height=221]
+[float-group]
+--
+[.left]
+.Esquema elèctric polsador
+image::ard_12_03 - Modul polsador_esquemático.png["Esquema electrònic",width=261,height=258]
+
+[.left]
+.Diagrama de muntatge polsador
+image::ard_12_04 - Modul polsador_bb.png["Esquema de muntatge",width=282,height=221]
+--
 
 === Programació
 
-_/*_
+[source, Arduino]
+----
+/*
+* CARTROTECH (www.qode66.xyz)
+*
+* Projecte nº: ARD012
+* Data: 29.08.2021
+* Descripcio: Llegir un polsador i fer parpellejar el led del pin 13
+*
+*/
 
-_ * CARTROTECH (www.qode66.xyz)_
+int Led = 13; //Assigna el pin Led_
+int pols = 3; //Assigna el pin al polsador_
+int val; //Defineix una variable_
 
-_ * _
+void setup()
+{
+  pinMode(Led, OUTPUT); //Configura el pin 13 (Led) com eixida
+  pinMode(pols, INPUT); //Configura el pin 3 (pols) com entrada
+  
+}
 
-_ * Projecte nº: ARD012_
-
-_ * Data: 29.08.2021_
-
-_ * Descripcio: Llegir un polsador i fer parpellejar el led del pin 13_
-
-_ * _
-
-_ */_
-
-__
-
-_int Led = 13; //Assigna el pin Led_
-
-_int pols = 3; //Assigna el pin al polsador_
-
-_int val; //Defineix una variable_
-
-__
-
-_void setup() _
-
-_\{_
-
-_ _
-
-_ pinMode(Led, OUTPUT); //Configura el pin 13 (Led) com eixida_
-
-_ pinMode(pols, INPUT); //Configura el pin 3 (pols) com entrada_
-
-__
-
-_}_
-
-__
-
-_void loop() _
-
-_\{_
-
-__
-
-_ val = digitalRead (pols); //llig el valor de l'entrada 3 i l'assigna a
-val_
-
-_ if (val == HIGH)_
-
-_ \{_
-
-_ digitalWrite (Led,LOW);_
-
-_ }_
-
-_ else_
-
-_ \{_
-
-_ digitalWrite (Led,HIGH);_
-
-_ delay(200);_
-
-_ digitalWrite (Led,LOW);_
-
-_ delay(200);_
-
-_ }_
-
-__
-
-_}_
+void loop()
+{
+  val = digitalRead (pols); //llig el valor de l'entrada 3 i l'assigna a val
+  if (val == HIGH)
+  {
+    digitalWrite (Led,LOW);
+  }
+  else
+  {
+    digitalWrite (Led,HIGH);
+    delay(200);
+    digitalWrite (Led,LOW);
+    delay(200);
+  }
+}
+----
 
 === Conceptes importants
 
-* Continuem utilitzant les resistències pull-up o pull-down quan usem
-polsadors
+* Continuem utilitzant les resistències pull-up o pull-down quan usem polsadors
 * Hem aprofitat part del codi del blinking led en aquest programa.

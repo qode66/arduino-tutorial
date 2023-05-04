@@ -1,7 +1,5 @@
 == 10 - Sensor de temperatura i humitat DHT11
 
-:iconsdir: ../imatges/icons
-
 === Finalitat
 
 * Connexió de sensors
@@ -14,10 +12,10 @@
 [%autowidth]
 [.center, cols=".^,<.^"]
 |===
-|image:./../imatges/mat_unor3.png["Arduino UNO",50,50] |Arduino Uno o compatible.
-|image:./../imatges/mat_protoboard.png["Protoboard",50,50] |Una protoboard
-|image:./../imatges/mat_cables.png["Cables",50,50] |Cables de connexió
-|image:./../imatges/mat_KY-015.png["Mòdul KY015",50,50] |Un mòdul KY-015 o sensor DHT11
+|image:./../imatges/mat/mat_unor3.png["Arduino UNO",50,50] |Arduino Uno o compatible.
+|image:./../imatges/mat/mat_protoboard.png["Protoboard",50,50] |Una protoboard
+|image:./../imatges/mat/mat_cables.png["Cables",50,50] |Cables de connexió
+|image:./../imatges/mat/mat_KY-015.png["Mòdul KY015",50,50] |Un mòdul KY-015 o sensor DHT11
 |===
 
 === Descripció
@@ -99,7 +97,7 @@ menor pot ocasionar que les dades no siguen precises.
 
 [.text-center]
 .Sensor DHT11
-image::./../imatges/ard_10_01.png["sensor-dht11",240]
+image::./../imatges/ard/ard_10_01.png["sensor-dht11",240]
 
 Per a connectar el circuit d’una aplicació típica amb un DHT11,
 necessitarem tindre una resistència pull-up connectada a l’eixida
@@ -117,11 +115,11 @@ L’esquema elèctric i de muntatge del DHT11 seria el següent:
 --
 [.left]
 .Diagrama de muntatge
-image::./../imatges/ard_10_02.png[esquema-muntatge,320]
+image::./../imatges/ard/ard_10_02.png[esquema-muntatge,320]
 
 [.left]
 .Esquema elèctric
-image::./../imatges/ard_10_03.png[esquema-electric,320]
+image::./../imatges/ard/ard_10_03.png[esquema-electric,320]
 --
 
 ==== DHT11 amb pcb (KY-015)
@@ -140,11 +138,11 @@ En la següent imatge pots veure l’esquema de connexió amb Arduino.
 --
 [.left]
 .Diagrama de muntatge KY015
-image::./../imatges/ard_10_04.png[esquema-muntatge-ky015,320]
+image::./../imatges/ard/ard_10_04.png[esquema-muntatge-ky015,320]
 
 [.left]
 .Esquema elèctric KY015
-image::./../imatges/ard_10_05.png[esquema-electric-ky015,320]
+image::./../imatges/ard/ard_10_05.png[esquema-electric-ky015,320]
 --
 
 === Programació

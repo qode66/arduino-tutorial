@@ -1,8 +1,5 @@
 == 09 - Sensor de cop i de vibració
 
-:imagesdir: ../imatges
-:iconsdir: ../imatges/icons
-
 === Finalitat
 
 Presentar el sensor de cop i de vibració (KY-002 i KY-031), a més de continuar treballant les entrades digitals per saber detectar senyals molt breus.
@@ -12,18 +9,24 @@ Presentar el sensor de cop i de vibració (KY-002 i KY-031), a més de continuar
 [%autowidth]
 [.center, cols=".^,<.^"]
 |===
-|image:mat_unor3.png["Arduino UNO",50,50] |Arduino Uno.
-|image:mat_protoboard.png["Protoboard",50,50] |Una protoboard
-|image:mat_cables.png["Cables",50,50] |Cables de connexió
-|image:mat_KY-002.png["Mòdul KY002",50,50] |Un mòdul KY-002, sensor de cop
-|image:mat_KY-031.png["Mòdul KY031",50,50] |Un mòdul KY-031, detector de vibració
+|image:../imatges/mat/mat_unor3.png["Arduino UNO",50,50] |Arduino Uno.
+|image:../imatges/mat/mat_protoboard.png["Protoboard",50,50] |Una protoboard
+|image:../imatges/mat/mat_cables.png["Cables",50,50] |Cables de connexió
+|image:../imatges/mat/mat_KY-002.png["Mòdul KY002",50,50] |Un mòdul KY-002, sensor de cop
+|image:../imatges/mat/mat_KY-031.png["Mòdul KY031",50,50] |Un mòdul KY-031, detector de vibració
 |===
 
 === ¿Cóm funcionen els mòduls?
 
+.Mòdul KY002, sensor de vibració
+image::../imatges/mat/mat_KY-002.png["Mòdul KY002"]
+
 El mòdul del conmutador de vibració KY-002 (vibration switch module) exteriorment presenta una forma cilíndrica. Les dues parts actives a l’interior del sensor són un moll conductor al centre envoltat per una placa també conductora. Aquesta configuració fa que quan s’aplica
 qualsevol tipus de xoc al mòdul, la molla entra en contacte amb la
 coberta cilíndrica i el circuit es tanca.
+
+.Módul KY031, sensor de cop
+image::../imatges/mat/mat_KY-031.png["Mòdul KY031"]
 
 El mòdul sensor de cop KY-031 és similar al mòdul de vibració. La
 diferència principal entre aquests dos és la seva sensibilitat. El
@@ -32,7 +35,7 @@ de cops requereix un cop potent o una sacsejada per activar-lo.
 
 Els dos mòduls porten una resistència de 10 K Ohm incorporada entre el
 pin central i el pin "S" per a ser usat com a muntatge *pull up o pull
-down** *segons es requerisca. Els contactes de l’interruptor connecten
+down* segons es requerisca. Els contactes de l’interruptor connecten
 els dos pins externs.
 
 Tots dos mòduls canvien l’estat del connector de eixida quan detecten el
@@ -51,11 +54,11 @@ connectat al pin 13 per veure la eixida.
 --
 [.left]
 .Esquema elèctric
-image:ard_09_01.png[Esquema-electronic]
+image::../imatges/ard/ard_09_01.png[Esquema-electronic]
 
 [.right]
 .Diagrama de muntatge
-image:ard_09_02.png[esquema-muntatge]
+image::../imatges/ard/ard_09_02.png[esquema-muntatge]
 --
 
 === Programació
@@ -96,5 +99,5 @@ void loop()
 
 === Veure també
 
-* link:../Index.md[Index]
-* link:../README.md[README]
+* link:../Index.adoc[Index]
+* link:../README.adoc[README]

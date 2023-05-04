@@ -1,4 +1,4 @@
-== arduino-sensors
+# arduino-sensors
 
 Us donem la benvinguda a aquesta guia d’aprenentatge sobre com utilitzar els sensors Arduino! Els sensors d’arduino són petits components
 electrònics que poden detectar canvis en l’entorn i proporcionar entrada a una placa de microcontrolador d’Arduino. Aquests sensors es poden
@@ -12,4 +12,4 @@ instruccions pas a pas per a alguns projectes d’exemple que demostren com util
 Ja sigui un principiant que comenci amb Arduino, o un fabricant més experimentat que miri d’expandir les vostres habilitats, aquesta guia
 d’aprenentatge us donarà els coneixements i les eines que necessiteu per començar a utilitzar sensors Arduino en els vostres projectes. Comencem!
 
-link:./index.adoc[Contingut del curs]
+[Contingut del curs](./index.md)

@@ -153,7 +153,7 @@ Les següents ordres tenen dues parts. La primera part és una declaració de va
 
   if (isnan(h) || isnan(t) || isnan(f)) // Comprovar si hi ha error en la lectura
   {
-    Serial.println(\"Error obtenint les dades del sensor DHT11\");
+    Serial.println("Error obtenint les dades del sensor DHT11");
     return;
   }
   ...

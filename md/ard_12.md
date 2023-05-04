@@ -21,10 +21,7 @@ Els commutadors són components realment simples. Quan premeu un botó o gireu u
 
 Els petits interruptors tàctils que s’utilitzen en aquesta lliçó tenen quatre connexions, que poden ser una mica confós.
 
-<figure>
-    <img src="../imatges/ard/ard_12_01.png">
-    <figcaption>Polsador i esquema elèctric</figcaption>
-</figure>
+![Polsador i esquema](../imatges/ard/ard_12_01.png)
 
 En realitat, només hi ha realment dues connexions elèctriques, ja que a l'interior del paquet d'interruptors els pins B i C estan connectats junts, igual que A i D.
 

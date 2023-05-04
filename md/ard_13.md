@@ -20,7 +20,7 @@ en la seua teledetecció sense fils i és molt convenient utilitzar-los.
 
 ## Descripció del material
 
-**Receptor IR**
+### Receptor IR
 
 Sensor d'infrarojos tipus 1838 per a ús amb senyals IR de 38 KHz.
 
@@ -56,7 +56,7 @@ per a la llum IR.
   resistències, la resistència canvia en funció de la quantitat de llum a
   què estan exposades.
 
-**Transmissor IR**
+### Transmissor IR
 
 Aquest mòdul s’utilitza generalment juntament amb el mòdul de receptor
 IR, les aplicacions d’aquest mòdul són molt àmplies en la nostra vida
@@ -156,3 +156,8 @@ void loop()
 ## Conceptes importants
 
 - Com funcionen el transmissor i el receptor de infrarojos.
+
+## Veure també
+
+- [Index](../Index.md)
+- [README](../README.md)

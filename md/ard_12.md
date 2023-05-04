@@ -1,10 +1,10 @@
-## 12 - El mòdul de polsador
+# 12 - El mòdul de polsador
 
-### Finalitat
+## Finalitat
 
 - Com utilitzar els polsadors
 
-### Material
+## Material
 
 |                                 Imatge                                 | Descripció                                                           |
 | :--------------------------------------------------------------------: | :------------------------------------------------------------------- |
@@ -13,7 +13,7 @@
 |   <img src="./../imatges/mat/mat_cables.png" width="50" height="50">   | Cables de connexió                                                   |
 |   <img src="./../imatges/mat/mat_KY-004.png" width="50" height="50">   | Un mòdul polsador (KY-004)                                           |
 
-### Descripció del material
+## Descripció del material
 
 **Polsadors**
 
@@ -31,14 +31,14 @@ Una resistència de 10 K ohm incorporada està connectada entre el pin central i
 
 ![Mòdul polsador](../imatges/ard/ard_12_02.png)
 
-### Muntatge
+## Muntatge
 
 Anem a fer que el led integrat en la placa arduino i connectat al pin 13 parpellege quan polsem el botó. Per aconseguir-ho cal cablejar la «output» del mòdul al pin 3 de arduino, la Vcc amb 5V i Gnd amb Gnd. Com veieu el muntatge és molt senzill.
 
 ![Esquema elèctric](../imatges/ard/ard_12_03.png)
 ![Muntatge](../imatges/ard/ard_12_04.png)
 
-### Programació
+## Programació
 
 ```Arduino
 
@@ -76,7 +76,12 @@ void loop()
 }
 ```
 
-### Conceptes importants
+## Conceptes importants
 
 - Continuem utilitzant les resistències pull-up o pull-down quan usem polsadors
 - Hem aprofitat part del codi del blinking led en aquest programa.
+
+## Veure també
+
+- [Index](../Index.md)
+- [README](../README.md)

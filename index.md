@@ -6,6 +6,11 @@
 - [01 - El nostre primer programa](./md/ard_01.md)
 - [02 - El nostre primer circuit](./md/ard_02.md)
 - [03 - Les entrades digitals](./md/ard_03.md)
+- [04 - Muntatge pull-up i pull-down](./md/ard_04.md)
+- [05 - Les entrades analògiques](./md/ard_05.md)
+- [06 - Les eixides analògiques](./md/ard_06.md)
+- [07 - Comunicació amb l'exterior](./md/ard_07.md)
+- [08 - Crear gràfiques utilitzant el port serie](./md/ard_08.md)
 
 ## Sensors
 

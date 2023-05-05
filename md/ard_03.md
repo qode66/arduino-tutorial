@@ -1,7 +1,7 @@
 # 03 - Les entrades digitals
 
-[img1]: ./Imatges/ard_03_01.jpg "Esquema elèctric"
-[img2]: ./Imatges/ard_03_02.jpg "Muntatge"
+[img1]: ./../imatges/ard/ard_03_01.jpg "Esquema elèctric"
+[img2]: ./../imatges/ard/ard_03_02.jpg "Muntatge"
 
 ## Objectius
 
@@ -9,12 +9,14 @@ La finalitat de la lliçó és conèixer les entrades digitals i aprofitarem per
 
 ## Material requerit
 
-- Arduino UNO o equivalent
-- Protoboard
-- Cables connexió
-- Un díode led
-- Dos resistències 330 Ohms
-- Un polsador
+|                                 Imatge                                 | Descripció               |
+| :--------------------------------------------------------------------: | :----------------------- |
+|   <img src="./../imatges/mat/mat_unor3.png" width="50" height="50">    | Arduino Uno o compatible |
+| <img src="./../imatges/mat/mat_protoboard.png" width="50" height="50"> | Una protoboard           |
+|   <img src="./../imatges/mat/mat_cables.png" width="50" height="50">   | Cables de connexió       |
+|    <img src="./../imatges/mat/mat_led.png" width="50" height="50">     | Un díode led             |
+|  <img src="./../imatges/mat/mat_resis330.png" width="50" height="50">  | 2x resistència 330 Ohms  |
+|  <img src="./../imatges/mat/mat_polsador.png" width="50" height="50">  | Un polsador              |
 
 ## Entrades digitals
 

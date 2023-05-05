@@ -9,13 +9,13 @@ L'objectiu d'aquesta sessió és fixar algunes idees bàsiques sobre electrònic
 
 ## Material requerit
 
-|                                 Imatge                                 | Descripció                                                           |
-| :--------------------------------------------------------------------: | :------------------------------------------------------------------- |
-|   <img src="./../imatges/mat/mat_unor3.png" width="50" height="50">    | Arduino Uno o compatible amb S4A i amb el firmware per S4A carregat. |
-| <img src="./../imatges/mat/mat_protoboard.png" width="50" height="50"> | Una protoboard                                                       |
-|   <img src="./../imatges/mat/mat_cables.png" width="50" height="50">   | Cables de connexió                                                   |
-|    <img src="./../imatges/mat/mat_led.png" width="50" height="50">     | Un díode led                                                         |
-|  <img src="./../imatges/mat/mat_resis330.png" width="50" height="50">  | Una resistència 330 Ohms                                             |
+|                                 Imatge                                 | Descripció               |
+| :--------------------------------------------------------------------: | :----------------------- |
+|   <img src="./../imatges/mat/mat_unor3.png" width="50" height="50">    | Arduino Uno o compatible |
+| <img src="./../imatges/mat/mat_protoboard.png" width="50" height="50"> | Una protoboard           |
+|   <img src="./../imatges/mat/mat_cables.png" width="50" height="50">   | Cables de connexió       |
+|    <img src="./../imatges/mat/mat_led.png" width="50" height="50">     | Un díode led             |
+|  <img src="./../imatges/mat/mat_resis330.png" width="50" height="50">  | Una resistència 330 Ohms |
 
 ## Algunes idees bàsiques sobre electrònica
 

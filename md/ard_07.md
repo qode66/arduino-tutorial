@@ -1,8 +1,8 @@
 # 07 - Comunicació amb l'exterior
 
-[img1]: ./Imatges/ard*07*01.png "Monitor série"
-[img2]: ./Imatges/ard*07*02.png "Velocitat de connexió"
-[img3]: ./Imatges/ard*07*03.png "Final de línia"
+[img1]: ./../imatges/ard/ard_07_01.png "Monitor série"
+[img2]: ./../imatges/ard/ard_07_02.png "Velocitat de connexió"
+[img3]: ./../imatges/ard/ard_07_03.png "Final de línia"
 
 ## Objectius
 
@@ -13,9 +13,11 @@ instrucció while.
 
 ## Material requerit
 
-- PC
-- Cable USB
-- Arduino UNO o compatible
+| Imatge                                                               | Descripció               |
+| -------------------------------------------------------------------- | ------------------------ |
+| <img src="./../imatges/mat/mat_portatil.jpg" width="50" height="50"> | PC                       |
+| <img src="./../imatges/mat/mat_cableusb.png" width="50" height="50"> | Cable USB                |
+| <img src="./../imatges/mat/mat_unor3.png" width="50" height="50">    | Arduino UNO o compatible |
 
 ## Comunicació Sèrie amb el món exterior
 

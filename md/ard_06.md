@@ -1,10 +1,10 @@
 # 06 - Les eixides analògiques
 
-[img1]: ./Imatges/ard_06_01.png "Senyal digital"
-[img2]: ./Imatges/ard_06_02.png "Senyal analògica"
-[img3]: ./Imatges/ard_06_03.png "PWM"
-[img4]: ./Imatges/ard_06_04.png "Eixides amb PWM"
-[img5]: ./Imatges/ard_06_05.png "Esquema de muntatge"
+[img1]: ./../imatges/ard/ard_06_01.png "Senyal digital"
+[img2]: ./../imatges/ard/ard_06_02.png "Senyal analògica"
+[img3]: ./../imatges/ard/ard_06_03.png "PWM"
+[img4]: ./../imatges/ard/ard_06_04.png "Eixides amb PWM"
+[img5]: ./../imatges/ard/ard_06_05.png "Esquema de muntatge"
 
 ## Finalitat
 
@@ -12,11 +12,13 @@ Comprendre les diferències entre analògic i digital. Conèixer les eixides qua
 
 ## Material requerit
 
-- Arduino UNO o complatible
-- Protoboard
-- Cables connexió
-- Un díode led
-- Una resistència de 330 Ohms
+|                                 Imatge                                 | Descripció               |
+| :--------------------------------------------------------------------: | :----------------------- |
+|   <img src="./../imatges/mat/mat_unor3.png" width="50" height="50">    | Arduino Uno o compatible |
+| <img src="./../imatges/mat/mat_protoboard.png" width="50" height="50"> | Una protoboard           |
+|   <img src="./../imatges/mat/mat_cables.png" width="50" height="50">   | Cables de connexió       |
+|    <img src="./../imatges/mat/mat_led.png" width="50" height="50">     | Un díode led             |
+|  <img src="./../imatges/mat/mat_resis330.png" width="50" height="50">  | Una resistència 330 Ohms |
 
 ## Analògic i digital
 

@@ -1,8 +1,8 @@
 # 08 - Crear gràfiques utilitzant el port serie
 
-[img1]: ./Imatges/ard_08_01.png "Traçador"
-[img2]: ./Imatges/ard_08_02.png "Gràfica una variable"
-[img3]: ./Imatges/ard_08_03.png "Gràfica dos variables"
+[img1]: ./../imatges/ard/ard_08_01.png "Traçador"
+[img2]: ./../imatges/ard/ard_08_02.png "Gràfica una variable"
+[img3]: ./../imatges/ard/ard_08_03.png "Gràfica dos variables"
 
 ## Objectius
 
@@ -11,9 +11,11 @@ de Arduino i incloure **diverses variables** en la gràfica.
 
 ## Material requerit
 
-- Un PC
-- Un cable USB
-- Arduino UNO o equivalent
+| Imatge                                                               | Descripció               |
+| -------------------------------------------------------------------- | ------------------------ |
+| <img src="./../imatges/mat/mat_portatil.jpg" width="50" height="50"> | PC                       |
+| <img src="./../imatges/mat/mat_cableusb.png" width="50" height="50"> | Cable USB                |
+| <img src="./../imatges/mat/mat_unor3.png" width="50" height="50">    | Arduino UNO o compatible |
 
 ## Dibuixar una gràfica utilitzant el Traçador Sèrie
 

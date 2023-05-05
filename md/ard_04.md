@@ -1,7 +1,7 @@
 # 04 - Muntatge pull-up i pull-down
 
-[img1]: ./Imatges/ard_04_01.png "Pull-up"
-[img2]: ./Imatges/ard_04_02.png "Pull-down"
+[img1]: ./../imatges/ard/ard_04_01.png "Pull-up"
+[img2]: ./../imatges/ard/ard_04_02.png "Pull-down"
 
 Pull-up i pull-down és un muntatge pel qual assegurem un valor alt o baix (HIGH o LOW) a la eixida del circuit. S'utilitza necessàriament amb els interruptors i contactes per no deixar mai una entrada sense connectar a cap lloc.
 

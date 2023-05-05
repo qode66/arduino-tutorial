@@ -1,11 +1,11 @@
 # 05 - Les entrades analògiques
 
-[img1]: ./Imatges/ard_05_01.png "Esquema elèctric"
-[img2]: ./Imatges/ard_05_02.png "Connexió d'un potenciòmetre"
-[img3]: ./Imatges/ard_05_03.png "Conversió analògic-digital"
-[img4]: ./Imatges/ard_05_04.png "Entrades analògiques"
-[img5]: ./Imatges/ard_05_05.png "Esquema de muntatge"
-[img6]: ./Imatges/ard_05_06.png "Eixida pel monitor sèrie"
+[img1]: ./../imatges/ard/ard_05_01.png "Esquema elèctric"
+[img2]: ./../imatges/ard/ard_05_02.png "Connexió d'un potenciòmetre"
+[img3]: ./../imatges/ard/ard_05_03.png "Conversió analògic-digital"
+[img4]: ./../imatges/ard/ard_05_04.png "Entrades analògiques"
+[img5]: ./../imatges/ard/ard_05_05.png "Esquema de muntatge"
+[img6]: ./../imatges/ard/ard_05_06.png "Eixida pel monitor sèrie"
 
 ## Objectius
 
@@ -15,12 +15,14 @@
 
 ## Material requerit
 
-- Arduino UNO o equivalent
-- Protoboard
-- Cables de connexió
-- Un potenciòmetre
-- Un díode led
-- Una resistència de 330 Ohms
+|                                  Imatge                                   | Descripció               |
+| :-----------------------------------------------------------------------: | :----------------------- |
+|     <img src="./../imatges/mat/mat_unor3.png" width="50" height="50">     | Arduino Uno o compatible |
+|  <img src="./../imatges/mat/mat_protoboard.png" width="50" height="50">   | Una protoboard           |
+|    <img src="./../imatges/mat/mat_cables.png" width="50" height="50">     | Cables de connexió       |
+|      <img src="./../imatges/mat/mat_led.png" width="50" height="50">      | Un díode led             |
+|   <img src="./../imatges/mat/mat_resis330.png" width="50" height="50">    | Una resistència 330 Ohms |
+| <img src="./../imatges/mat/mat_potenciometre.png" width="50" height="50"> | Un potenciòmetre         |
 
 ## Els potenciòmetres
 

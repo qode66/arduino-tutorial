@@ -165,3 +165,8 @@ Si correu aquest programa en un Arduino UNO us donarà, si fa no fa, un resultat
 - Vam aprendre a llegir les portes analògiques de Arduino.
 - Sabem que podem llegir les portes analògiques unes 8.900 vegades per segon amb una resolució de 10 bits, és a dir entre 0 i 1.024.
 - Hem conegut la funció **millis()**.
+
+## Veure també
+
+- [Index](../Index.md)
+- [README](../README.md)

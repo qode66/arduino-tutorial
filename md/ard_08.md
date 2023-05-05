@@ -102,3 +102,8 @@ des del mateix IDE de Arduino.
 
 - Sabem incorporar **diverses variables** a la gràfica.
 - Ara que sabem que existeix aquesta eina i com s'utilitza, podeu incorporar-la als vostres projectes per a realitzar gràfiques de les mesures de sensors , la velocitat d'un motor, o el que se us passe pel cap.
+
+## Veure també
+
+- [Index](../Index.md)
+- [README](../README.md)

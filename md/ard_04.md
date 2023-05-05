@@ -22,3 +22,8 @@ dispositiu. A la figura es pot veure un exemple de resistència desplegable en u
 ## Conclusió
 
 Les resistències pull-up no són un tipus especial de resistències; són simples resistències de valor fix connectades entre l'alimentació de tensió (generalment + 5V) i el pin adequat, cosa que resulta en definir la tensió d'entrada o sortida en absència d'un senyal de conducció.
+
+## Veure també
+
+- [Index](../Index.md)
+- [README](../README.md)

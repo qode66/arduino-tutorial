@@ -174,3 +174,8 @@ d'un número **num**, i per això mentre que i viatja de -255 a 255,
   Arduino.
   - Només amb les eixides que ho accepten: pins 3, 5, 6, 9, 10 i 1.
   - Podem assignar valors entre 0 i 255.
+
+## Veure també
+
+- [Index](../Index.md)
+- [README](../README.md)

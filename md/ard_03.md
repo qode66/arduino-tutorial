@@ -139,3 +139,8 @@ delay ( 1000) ;
   - digitalWrite( pin , valor)
 - Hem conegut un nou component: el polsador.
 - Coneixem un nou tipus en C++, el booleà i un nou operador de negació.
+
+## Veure també
+
+- [Index](../Index.md)
+- [README](../README.md)

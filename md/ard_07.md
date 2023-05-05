@@ -351,3 +351,8 @@ imprimir en eixir.
 - Hem presentat els tipus String i char.
 - Hem vist les regles bàsiques per a operar amb enters i amb Strings.
 - Presentem una nova instrucció: while.
+
+## Veure també
+
+- [Index](../Index.md)
+- [README](../README.md)

@@ -42,7 +42,7 @@ On **V** és la tensió en volts, **R** la resistència i **I** la intensitat el
 
 - _En el món de Arduino la tensió és quasi sempre 5V, que és la tensió al fet que funciona i la que és capaç de posar en les seues eixides digitals._
 
-Una altra manera d'escriure aquesta llei d'Ohm és **I = V / R **
+Una altra manera d'escriure aquesta llei d'Ohm és **I = V / R**
 
 El que implica que si la resistència del circuit és nul·la (o quasi, com en el cas d'un cable de coure) la intensitat del corrent es dispara i pot arribar a fondre el cable o component que trobe.
 

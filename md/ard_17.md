@@ -14,7 +14,7 @@ mòdul LED RGB.
 | <img src="./../imatges/mat/mat_KY-009.png" width="50" height="50"> | Mòdul LED RGB SMD (KY-009) |
 | <img src="./../imatges/mat/mat_KY-016.png" width="50" height="50"> | Mòdul LED RGB (KY-016)     |
 
-## Descripció
+## Introducció
 
 En realitat, la funció del mòdul LED SMD RGB (KY-009) i del mòdul LED
 RGB (KY-016) és quasi la mateixa, però podem triar la forma que ens
@@ -31,13 +31,13 @@ verd i blau). En ajustar l'entrada de voltatge dels pins R (roig), G
 
 ![Mòdul led rgb smd](../imatges/ard/ard_17_01.jpeg)
 
-**Descripció**
+#### Descripció
 
 Mòdul LED RGB a tot color per a Arduino, emet una gamma de colors
 mesclant llum roja, verda i blava. La quantitat de cada color s'ajusta
 mitjançant modulació per control de pulsos (PWM).
 
-**Especificacions**
+#### Especificacions
 
 El mòdul LED SMD a tot color RGB consta d'un LED SMD 5050, que**
 s'utilitza** **amb resistències limitadores** per a evitar que es
@@ -101,7 +101,7 @@ component de color (roig, verd i blau) per separat i després la unió de
 dos dels components. El segon codi mostra colors aleatoris per
 combinació dels tres canals.
 
-**Codi: ARD_17a**
+Codi: ARD_17a
 
 ```Arduino
 /*
@@ -178,7 +178,7 @@ void loop()
 }
 ```
 
-**Codi: ARD_17b**
+Codi: ARD_17b
 
 ```Arduino
 /*

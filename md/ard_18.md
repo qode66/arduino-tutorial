@@ -33,7 +33,7 @@ objecte opac.
 - Voltatge de funcionament: 3.3 ~ 5V
 - Dimensions: 18,5 mm x 15 mm
 
-# Connexió
+## Connexió
 
 Connecte la línia d'alimentació (enmig) i terra (esquerra) a + 5V i GND
 respectivament. Connecte el senyal (S) al pin 3 del Arduino.

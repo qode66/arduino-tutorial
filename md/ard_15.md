@@ -1,4 +1,4 @@
-# 15 -- Mòdul de brunzidor passiu
+# 15 - Mòdul de brunzidor passiu
 
 ## Finalitat
 

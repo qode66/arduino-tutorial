@@ -1,4 +1,4 @@
-# 09 -- Mòdul led RGB SMD i mòdul led RGB
+# 17 - Mòdul led RGB SMD i mòdul led RGB
 
 ## Objectiu
 

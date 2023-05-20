@@ -1,4 +1,4 @@
-# 19 -- Led de doble color
+# 19 - Led de doble color
 
 ## Objectiu
 

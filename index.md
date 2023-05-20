@@ -6,6 +6,11 @@
 - [01 - El nostre primer programa](./md/ard_01.md)
 - [02 - El nostre primer circuit](./md/ard_02.md)
 - [03 - Les entrades digitals](./md/ard_03.md)
+- [04 - Muntatge pull-up i pull-down](./md/ard_04.md)
+- [05 - Les entrades analògiques](./md/ard_05.md)
+- [06 - Les eixides analògiques](./md/ard_06.md)
+- [07 - Comunicació amb l'exterior](./md/ard_07.md)
+- [08 - Crear gràfiques utilitzant el port serie](./md/ard_08.md)
 
 ## Sensors
 
@@ -14,3 +19,15 @@
 - [11 - La pantalla LCD](./md/ard_11.md)
 - [12 - El mòdul de polsador](./md/ard_12.md)
 - [13 - Mòduls Transmisor i Receptor IR](./md/ard_13.md)
+- [14 - Mòdul de brunzidor actiu](./md/ard_14.md)
+- [15 - Mòdul de brunzidor passiu](./md/ard_15.md)
+- [16 - Mòdul làser](./md/ard_16.md)
+- [17 - Mòdul led RGB SMD i mòdul led RGB](./md/ard_17.md)
+- [18 - Mòdul foto-interruptor](./md/ard_18.md)
+- [19 - Led de doble color](./md/ard_19.md)
+- [20 - Mòdul LDR (foto resistència)](./md/ard_20.md)
+- [21 - Mòduls de detecció de so](./md/ard_21.md)
+- [22 - Mòdul d'interruptor magnètic](./md/ard_22.md)
+- [23 - Mòdul sensor digital de temperatura](./md/ard_23.md)
+- [24 - Mòdul de sensor magnètic lineal](./md/ard_24.md)
+- [25 - Mòdul sensor de flama](./md/ard_25.md)

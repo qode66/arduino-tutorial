@@ -1,4 +1,4 @@
-# 21 - Mòduls de **detecció de so**
+# 21 - Mòduls de detecció de so
 
 ## Visió general
 

@@ -35,3 +35,4 @@
 - [27 - Mòdul led flash de set colors](./md/ard_27.md)
 - [28 - Mòdul Joystick](./md/ard_28.md)
 - [29 - Mòdul de seguiment de línies](./md/ard_29.md)
+- [30 - Mòdul sensor d'evasió d'obstacles](./md/ard_30.md)

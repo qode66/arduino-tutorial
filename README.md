@@ -24,4 +24,4 @@ instruccions pas a pas per a alguns projectes d’exemple que demostren com util
 Ja sigui un principiant que comenci amb Arduino, o un fabricant més experimentat que miri d’expandir les vostres habilitats, aquesta guia
 d’aprenentatge us donarà els coneixements i les eines que necessiteu per començar a utilitzar sensors Arduino en els vostres projectes. Comencem!
 
-[Contingut del curs](./index.md)
+[Contingut del curs](./Index.md)
